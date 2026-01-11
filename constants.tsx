@@ -30,11 +30,11 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
   },
   {
     category: "DevOps & Cloud",
-    skills: ["Git", "GitHub", "Docker", "GitHub Actions", "AWS EC2", "Linux"]
+    skills: ["Git", "GitHub", "Docker", "GitHub Actions", "AWS Services", "Linux"]
   },
   {
     category: "Databases",
-    skills: ["MySQL", "MongoDB", "MS SQL Server", "Redis"]
+    skills: ["MySQL", "MongoDB", "MS SQL Server", "PostgreSQL"]
   },
   {
     category: "AI & Tools",
