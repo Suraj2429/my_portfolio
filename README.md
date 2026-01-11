@@ -1,20 +1,43 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Suraj Patil – Portfolio Website 🚀
 
-# Run and deploy your AI Studio app
+A modern, responsive personal portfolio website built using **React**, **TypeScript**, **Tailwind CSS**, and **Vite**.  
+This portfolio showcases my skills, projects, education, certifications, and contact information in a clean and professional layout.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+## ✨ Features
 
-## Run Locally
+- ⚡ Fast and lightweight (Vite)
+- 🎨 Modern UI with Tailwind CSS
+- 📱 Fully responsive design
+- 🧑‍💻 About Me section with profile photo
+- 🛠 Skills categorized by domain
+- 📂 Projects with tech stack and GitHub links
+- 🎓 Education timeline (centered & responsive)
+- 💬 AI Chat feature (optional – API based)
+- 📞 Contact section
 
-**Prerequisites:**  Node.js
+---
 
+## 🛠 Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Frontend:** React, TypeScript
+- **Styling:** Tailwind CSS
+- **Build Tool:** Vite
+- **Version Control:** Git & GitHub
+
+---
+
+## 📁 Project Structure
+suraj-patil-portfolio/
+├── assets/ # Images (profile photo, etc.)
+├── components/ # Reusable React components
+├── constants.tsx # Personal data, skills, projects, education
+├── types.ts # TypeScript interfaces
+├── images.d.ts # Image module declarations
+├── App.tsx
+├── index.tsx
+├── index.html
+├── package.json
+└── README.md
+
