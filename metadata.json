@@ -1,0 +1,6 @@
+
+{
+  "name": "Suraj Patil - Portfolio",
+  "description": "A professional and modern developer portfolio for Suraj Prakash Patil, featuring a microservices focus, skill visualization, and an interactive AI assistant.",
+  "requestFramePermissions": ["microphone"]
+}
