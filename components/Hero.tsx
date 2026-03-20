@@ -7,9 +7,9 @@ const Hero: React.FC = () => {
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="inline-flex items-center px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-mono mb-6 animate-pulse">
-          🚀 Available for Internships & Projects
+          🚀 Available for Full-time Jobs & Projects
         </div>
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-tight mb-6">
+        <h1 className="text-5xl md:text-7xl lg:text-6.5xl font-extrabold tracking-tight mb-6">
           <span className="block text-white">Suraj Prakash Patil</span>
           <span className="block bg-gradient-to-r from-blue-400 via-indigo-500 to-emerald-400 bg-clip-text text-transparent pb-2">
             Junior Software Developer

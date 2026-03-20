@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -9,13 +8,14 @@ import Education from './components/Education';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import AIChat from './components/AIChat';
+import Certifications from "./components/Certifications";
 
 const App: React.FC = () => {
   const [activeSection, setActiveSection] = useState('home');
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'skills', 'projects', 'education', 'contact'];
+      const sections = ['home', 'about', 'skills', 'projects', 'certifications', 'education', 'contact'];
       const scrollPosition = window.scrollY + window.innerHeight / 3;
 
       for (const section of sections) {
@@ -60,6 +60,10 @@ const App: React.FC = () => {
 
         <section id="projects" className="py-24">
           <Projects />
+        </section>
+        
+        <section id="certifications" className="py-24 bg-slate-900/40 border-y border-slate-900/50">
+          <Certifications />
         </section>
 
         <section id="education" className="py-24 bg-slate-900/40 border-y border-slate-900/50">

@@ -82,15 +82,15 @@ const About: React.FC = () => {
             <ul className="space-y-3 text-slate-400 text-sm">
               <li className="flex items-center">
                 <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-3"></div>
+                DevOps Course (TuteDude, 2026)
+              </li>
+              <li className="flex items-center">
+                <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-3"></div>
+                Deloitte Australia Job Simulation (Forage, 2025)
+              </li>
+              <li className="flex items-center">
+                <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-3"></div>
                 Cloud Computing (NPTEL, 2024)
-              </li>
-              <li className="flex items-center">
-                <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-3"></div>
-                Deloitte Australia Job Simulation
-              </li>
-              <li className="flex items-center">
-                <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-3"></div>
-                DevOps Course (TuteDude, In Progress)
               </li>
             </ul>
           </div>

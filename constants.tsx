@@ -67,16 +67,16 @@ export const PROJECTS: Project[] = [
       "Application automation"
     ]
   },
-  {
-    title: "Deloitte Technology Simulation",
-    techStack: ["Data Visualization", "Requirement Analysis", "Solution Design"],
-    description: "Completed real-world software development tasks and built data dashboards in a professional simulation environment.",
-    features: [
-      "Requirement gathering for enterprise software",
-      "Dashboard development and data analysis",
-      "Modular solution design"
-    ]
-  }
+  // {
+  //   title: "Deloitte Technology Simulation",
+  //   techStack: ["Data Visualization", "Requirement Analysis", "Solution Design"],
+  //   description: "Completed real-world software development tasks and built data dashboards in a professional simulation environment.",
+  //   features: [
+  //     "Requirement gathering for enterprise software",
+  //     "Dashboard development and data analysis",
+  //     "Modular solution design"
+  //   ]
+  // }
 ];
 
 export const EDUCATION_LIST: Education[] = [
