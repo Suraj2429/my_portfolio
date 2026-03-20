@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Project, SkillCategory, Education } from "./types";
-import profilePic from "./assets/Profile.jpeg";
+import profilePic from "./assets/Casual Shoot.png";
 
 export const PERSONAL_INFO = {
   name: "Suraj Prakash Patil",
@@ -17,29 +17,38 @@ export const PERSONAL_INFO = {
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
   {
-    category: "Languages",
-    skills: ["Python", "Java", "JavaScript", "C", "C++", "Shell Scripting"]
+    category: "Programming Languages",
+    skills: ["Python", "JavaScript (ES6+)", "Shell Scripting"]
   },
   {
-    category: "Backend & APIs",
-    skills: ["RESTful APIs", "FastAPI", "ASP.NET", "Node.js", ".NET Framework"]
+    category: "Backend Development",
+    skills: ["Node.js", "Express.js", "FastAPI", "ASP.NET", "RESTful APIs"]
   },
   {
-    category: "Web & Frontend",
-    skills: ["React.js", "HTML5", "CSS3", "Tailwind CSS", "JavaScript (ES6+)"]
+    category: "Frontend Development",
+    skills: ["React.js", "HTML5", "CSS3", "Tailwind CSS"]
   },
   {
     category: "DevOps & Cloud",
-    skills: ["Git", "GitHub", "Docker", "GitHub Actions", "AWS Services", "Linux"]
+    skills: [
+      "Git", 
+      "GitHub", 
+      "Docker", 
+      "Kubernetes (Basics)", 
+      "GitHub Actions (CI/CD)", 
+      "AWS (EC2, S3 - Basics)", 
+      "Linux"
+    ]
   },
   {
     category: "Databases",
-    skills: ["MySQL", "MongoDB", "MS SQL Server", "PostgreSQL"]
+    skills: ["MySQL", "MongoDB", "PostgreSQL"]
   },
   {
-    category: "AI & Tools",
-    skills: ["ChatGPT", "Prompt Engineering", "Model Evaluation", "Scikit-learn"]
-  }
+    category: "Tools & Technologies",
+    skills: ["Jenkins (Basics)", "Terraform (Basics)", "Postman", "VS Code"]
+  },
+
 ];
 
 export const PROJECTS: Project[] = [
@@ -67,16 +76,7 @@ export const PROJECTS: Project[] = [
       "Application automation"
     ]
   },
-  // {
-  //   title: "Deloitte Technology Simulation",
-  //   techStack: ["Data Visualization", "Requirement Analysis", "Solution Design"],
-  //   description: "Completed real-world software development tasks and built data dashboards in a professional simulation environment.",
-  //   features: [
-  //     "Requirement gathering for enterprise software",
-  //     "Dashboard development and data analysis",
-  //     "Modular solution design"
-  //   ]
-  // }
+
 ];
 
 export const EDUCATION_LIST: Education[] = [

@@ -22,11 +22,40 @@ const Hero: React.FC = () => {
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="#projects"
-            className="w-full sm:w-auto px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-lg transition-all transform hover:scale-105 active:scale-95 shadow-lg shadow-blue-500/20"
+            href="https://suraj2429.github.io/Guess-the-Number-Game/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative inline-flex items-center justify-center w-full sm:w-auto px-8 py-4 font-semibold text-white rounded-xl overflow-hidden transition-all duration-300 transform hover:scale-105 active:scale-95"
           >
-            View My Work
+            
+            {/* 🔥 Background Gradient */}
+            <span className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:from-blue-500 group-hover:to-purple-500 transition-all duration-300"></span>
+
+            {/* 🔥 Glow Effect */}
+            <span className="absolute inset-0 blur-xl opacity-30 group-hover:opacity-50 bg-gradient-to-r from-blue-500 to-purple-500"></span>
+
+            {/* 🔥 Content */}
+            <span className="relative flex items-center gap-2">
+              🚀 View My Work
+
+              {/* Arrow Icon */}
+              <svg
+                className="w-4 h-4 group-hover:translate-x-1 transition-transform"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </span>
           </a>
+
+          <a
+            href="#projects"
+            className="w-full sm:w-auto px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white font-semibold rounded-lg border border-slate-700 transition-all">
+            Explore Projects
+          </a>
+
           <a
             href="#contact"
             className="w-full sm:w-auto px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white font-semibold rounded-lg border border-slate-700 transition-all"

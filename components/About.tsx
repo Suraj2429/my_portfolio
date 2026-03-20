@@ -86,7 +86,7 @@ const About: React.FC = () => {
               </li>
               <li className="flex items-center">
                 <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-3"></div>
-                Deloitte Australia Job Simulation (Forage, 2025)
+                Deloitte Australia Job Simulation (Forage, 2025c)
               </li>
               <li className="flex items-center">
                 <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-3"></div>
