@@ -65,15 +65,19 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    title: "Hey Jervis - Virtual Voice Assistant",
-    techStack: ["Python", "SpeechRecognition", "pyttsx3", "Scikit-learn"],
-    description: "An intelligent Python-based assistant capable of natural language processing and executing system/web commands via voice.",
-    github: "https://github.com/Suraj2429/virtual_voice_assistant.git",
+    title: "Scalable User Management Backend (Dating App)",
+    techStack: ["Node.js", "Express.js", "PostgreSQL", "Prisma", "Firebase Auth", "JWT", "Multer", "Swagger"],
+    description: "A production-ready backend system for a dating application featuring secure authentication, profile onboarding, media handling, KYC verification, admin moderation, and strict user validation workflows.",
+    github: "https://github.com/Suraj2429/scalable-user-management-backend.git",
     features: [
-      "Natural language query handling",
-      "Web searching and YouTube control",
-      "Basic calculations and time queries",
-      "Application automation"
+      "Firebase-based authentication (Google & Phone) with JWT authorization",
+      "Profile onboarding with validation and completion tracking",
+      "Media upload system with file validation and storage management",
+      "KYC video upload with admin approval workflow",
+      "Role-based access control for admin moderation",
+      "User validation logic enforcing profile, photo, and KYC completion",
+      "Block user system with mutual interaction restriction",
+      "Well-structured REST APIs with Swagger documentation"
     ]
   },
 
