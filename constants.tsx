@@ -53,6 +53,30 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
 
 export const PROJECTS: Project[] = [
   {
+    title: "Jenkins High Availability Setup on AWS",
+    techStack: [
+      "AWS EC2",
+      "Jenkins",
+      "Docker",
+      "Nginx",
+      "Linux",
+      "Shell Scripting"
+    ],
+    description: "A highly available Jenkins CI/CD infrastructure deployed on AWS with a reverse proxy, containerized Jenkins instances, and automated failover concepts to improve reliability and minimize downtime.",
+    github: "https://github.com/Suraj2429/jenkins-ha-setup-aws.git",
+    features: [
+      "Deployed Jenkins on AWS EC2 instances",
+      "Configured multiple Jenkins instances for high availability",
+      "Containerized Jenkins using Docker",
+      "Implemented Nginx reverse proxy for request routing",
+      "Automated Jenkins setup and configuration using shell scripts",
+      "Persistent Jenkins data management using Docker volumes",
+      "Documented deployment architecture and setup process",
+      "Designed a scalable CI/CD infrastructure with improved fault tolerance"
+    ]
+  },
+
+  {
     title: "SecureFS - Role-Based File Management",
     techStack: ["React.js", "FastAPI", "MongoDB", "JWT", "GridFS"],
     description: "A secure microservices-style web application featuring separate user and admin functionalities with robust role-based access control.",
@@ -64,23 +88,7 @@ export const PROJECTS: Project[] = [
       "Responsive admin/user dashboards"
     ]
   },
-  {
-    title: "Scalable User Management Backend (Dating App)",
-    techStack: ["Node.js", "Express.js", "PostgreSQL", "Prisma", "Firebase Auth", "JWT", "Multer", "Swagger"],
-    description: "A production-ready backend system for a dating application featuring secure authentication, profile onboarding, media handling, KYC verification, admin moderation, and strict user validation workflows.",
-    github: "https://github.com/Suraj2429/scalable-user-management-backend.git",
-    features: [
-      "Firebase-based authentication (Google & Phone) with JWT authorization",
-      "Profile onboarding with validation and completion tracking",
-      "Media upload system with file validation and storage management",
-      "KYC video upload with admin approval workflow",
-      "Role-based access control for admin moderation",
-      "User validation logic enforcing profile, photo, and KYC completion",
-      "Block user system with mutual interaction restriction",
-      "Well-structured REST APIs with Swagger documentation"
-    ]
-  },
-
+  
 ];
 
 export const EDUCATION_LIST: Education[] = [
