@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Project, SkillCategory, Education } from "./types";
-import profilePic from "./assets/Casual Shoot.png";
+import profilePic from "./assets/Profile.png";
 
 export const PERSONAL_INFO = {
   name: "Suraj Prakash Patil",
