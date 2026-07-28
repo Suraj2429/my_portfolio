@@ -6,13 +6,13 @@ import profilePic from "./assets/Profile.png";
 export const PERSONAL_INFO = {
   name: "Suraj Prakash Patil",
   title: "Software & Backend Developer",
-  location: "Kolhapur, Maharashtra, India",
+  location: "Pune, Maharashtra, India",
   email: "surajp7275@gmail.com",
   phone: "+91 9307153180",
   linkedin: "linkedin.com/in/suraj-patil90",
   github: "github.com/Suraj2429",
   profileImage: profilePic,
-  bio: "Motivated MCA Final Year student with a strong interest in software and backend development.",
+  bio: "MCA graduate with hands-on experience in Software Development and DevOps. Proficient in Python, Django, FastAPI, AWS, Linux, Docker, Kubernetes, Jenkins, Terraform, Git/GitHub, and CI/CD. Passionate about building scalable applications, automating deployments, and solving real-world problems through cloud and software engineering. A quick learner with strong analytical, problem-solving, and teamwork skills.",
 };
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
